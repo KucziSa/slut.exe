@@ -3,8 +3,7 @@ import os
 def make_commit(days: int):
     if days < 1:
         return os.system('git push')
-        return os.system('git push')
-        return os.system('git push')
+
 
     else:
         dates = f'{days} days ago'
